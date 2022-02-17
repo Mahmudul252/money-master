@@ -37,7 +37,42 @@
                     <input type="text" class="py-2 border-0 px-2 w-50 rounded" id="total-income">
                 </div>
 
+                <!-- expenses  -->
+                <h5>Expenses</h5>
+                <div class="mb-3">
+                    <label for="food" class="me-2">Food: </label>
+                    <input type="text" class="py-2 border-0 px-2 w-50 rounded" id="food-cost">
+                </div>
+                <div class="mb-3">
+                    <label for="rent" class="me-2">Rent: </label>
+                    <input type="text" class="py-2 border-0 px-2 w-50 rounded" id="rent-cost">
+                </div>
+                <div class="mb-3">
+                    <label for="clothes" class="me-2">Clothes: </label>
+                    <input type="text" class="py-2 border-0 px-2 w-50 rounded" id="clothes-cost">
+                </div>
 
+                <!-- calculate button  -->
+                <button type="button" class="btn btn-primary btn-lg btn-width text-center px-2"
+                    id="calculate-button">Calculate</button>
+
+                <!-- total expenses -->
+                <h5 class="my-3">Total Expenses: <span id="total-expenses">0</span></h5>
+
+                <!-- balance -->
+                <h5 class="my-3">Balance: <span id="balance">0</span></h5>
+
+                <!-- Save -->
+                <div class="mb-3">
+                    <label for="save" class="me-2">Save: </label>
+                    <input type="text" class="py-2 border-0 px-2 w-25 me-2 rounded" id="saving-input">
+                    <span>%</span>
+                    <button type="button" class="btn btn-primary btn-lg btn-width ms-2" id="save-button">Save</button>
+                </div>
+
+                <!-- saving and remaining balance -->
+                <h5 class="my-3">Saving Amount: <span id="saving-amount">0</span></h5>
+                <h5 class="my-3">Remaining Balance: <span id="remaining-balance">0</span></h5>
             </div>
         </section>
     </main>
